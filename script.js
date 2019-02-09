@@ -1,7 +1,6 @@
 'use strict'
 
 let userName = '';
-let apiKey = '9fbaa27e83fd71d4ddefbca1b7cf675b91a95500';
 
 //display the results
 function displayResults(resp){
