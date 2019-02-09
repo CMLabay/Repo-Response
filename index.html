@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Repo Response</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Github Repositories</h1>
+        <form>
+            <legend>Enter the candidate's username.</legend>
+            <label for="username">Github handle</label>
+            <input type="text" id="username" name="username">
+            <button type="submit">Submit</button>
+        </form>
+        <section id="results" class="hidden">
+            <h2>Results</h2>
+            <p id="js-error" class="error"></p>
+            <ul id='results-list'></ul>
+        </section>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
